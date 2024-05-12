@@ -1,0 +1,359 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Alatsi", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+}
+
+ul li {
+  list-style: none;
+}
+
+#logo-drzac {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+#logo-drzac #logo img {
+  width: 100%;
+}
+
+#navigacija-drzac {
+  position: relative;
+  background-color: #0c0e10;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#navigacija {
+  width: 100%;
+}
+
+#navigacija-drzac ul li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+.meni {
+  position: relative;
+}
+
+.meni ul {
+  padding: 33px 20px;
+}
+
+.meni .klasa1 {
+  color: rgb(49, 116, 209);
+}
+
+.meni ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+  font-size: 18px;
+}
+
+.meni ul li a:hover {
+  color: rgb(49, 116, 209);
+  transition: all 0.3s ease-in-out;
+}
+
+.centar-blok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.centar-blok-desno {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.centar-blok-drzac {
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.centar-blok-drzac h1 {
+  color: white;
+  font-size: 45px;
+  text-indent: 20px;
+  letter-spacing: 3px;
+}
+
+.centar-blok-drzac p {
+  color: white;
+  font-family: "Signika";
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.centar-blok-btn {
+  background-color: rgb(49, 116, 209);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: 0px;
+  margin: 15px;
+}
+
+.centar-blok-btn2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 10px 40px;
+  border: 0px;
+  margin: 10px;
+}
+
+.centar-blok-btn a {
+  color: white;
+  text-decoration: none;
+  font-family: "Signika";
+  font-size: 15px;
+}
+
+.centar-blok-btn2 a {
+  color: rgb(49, 116, 209);
+  text-decoration: none;
+  font-family: "Signika";
+  font-size: 15px;
+}
+
+.centar-blok-btn:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.centar-blok-btn a:hover {
+  color: rgb(49, 116, 209);
+  transition: all 0.3s ease-in-out;
+}
+
+.centar-blok-btn2:hover {
+  background-color: rgb(49, 116, 209);
+  transition: all 0.3s ease-in-out;
+}
+
+.centar-blok-btn2 a:hover {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.content1 {
+  padding: 20px 0px;
+  width: 100%;
+  background-color: rgb(18, 21, 28);
+}
+.content1 .naslov h3 {
+  text-align: center;
+  padding: 50px 0px;
+  color: rgb(49, 116, 209);
+  font-size: 25px;
+}
+.content1 .tekst {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 35px;
+  margin-top: -29px;
+}
+.content1 .centar {
+  display: flex;
+  justify-content: center;
+}
+.content1 .centar #drzac-slike {
+  width: 400px;
+  height: 400px;
+  margin: 0px 50px;
+}
+.content1 .centar #drzac-slike img {
+  width: 100%;
+  border-radius: 20px;
+  border-left: 4px solid rgb(49, 116, 209);
+}
+.content1 .centar .tekst {
+  margin-top: 150px;
+  line-height: 1.8;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+.content1 .centar .tekst button {
+  margin-top: 40px;
+}
+.content1 .centar2 {
+  justify-content: space-around;
+}
+.content1 .centar2 .projekti {
+  width: 300px;
+  height: auto;
+  background-color: rgb(48, 56, 74);
+  border-radius: 15px;
+  border-left: 4px solid rgb(49, 116, 209);
+  justify-content: space-around;
+}
+.content1 .centar2 .projekti img {
+  width: 100%;
+  border-radius: 10px;
+}
+.content1 .centar2 .projekti p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  font-weight: 900;
+}
+.content1 .centar2 .projekti:hover {
+  transform: scale(1.1);
+  transition: transform 0.7s ease;
+}
+.content1 .naslov1 h3 {
+  color: rgb(18, 21, 28);
+}
+.content1 .naslov2 h3 {
+  padding: 20px 0px;
+}
+
+.content2 {
+  width: 100%;
+  background-color: rgb(27, 31, 42);
+}
+.content2 .naslov h3 {
+  text-align: center;
+  padding: 50px 0px;
+  color: rgb(49, 116, 209);
+  font-size: 25px;
+}
+.content2 .naslov12 h3 {
+  color: rgb(27, 31, 42);
+}
+.content2 .centar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.content2 .centar .forma #forma1 .podaciforma label {
+  color: white;
+  padding: 10px 0px;
+}
+.content2 .centar .forma #forma1 .podaciforma input[type=text] {
+  border-left: 4px solid rgb(49, 116, 209);
+  border-radius: 8px;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #30475c;
+  color: white;
+}
+.content2 .centar .forma #forma1 .podaciforma input[type=email] {
+  border-left: 4px solid rgb(49, 116, 209);
+  border-radius: 8px;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #30475c;
+  color: white;
+}
+.content2 .centar .forma #forma1 .podaciforma textarea {
+  border-left: 4px solid rgb(49, 116, 209);
+  border-radius: 8px;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #30475c;
+  color: white;
+}
+.content2 .centar .forma #forma1 .podaciforma .centar-blok-btn-subm {
+  margin: 0px auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+.content2 .centar .contact-info {
+  width: 30%;
+  padding-right: 100px;
+}
+.content2 .centar .contact-info h3 {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.content2 .centar .contact-info i {
+  color: rgb(49, 116, 209);
+  font-size: 25px;
+}
+.content2 .centar .contact-info p {
+  color: white;
+  font-size: 18px;
+}
+.content2 .centar .skilovi {
+  width: 250px;
+  height: auto;
+  background-color: rgb(48, 56, 74);
+  border-radius: 15px;
+  border-left: 4px solid rgb(49, 116, 209);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+}
+.content2 .centar .skilovi:hover {
+  transform: scale(1.1);
+  transition: transform 0.7s ease;
+}
+.content2 .centar .skilovi i {
+  color: white;
+  font-size: 70px;
+  padding: 20px 0px;
+  padding-right: 10px;
+}
+.content2 .centar .skilovi p {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(18, 21, 28);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer #logo {
+  padding: 20px 0px;
+  height: 70px;
+  width: 70px;
+}
+footer #logo img {
+  width: 100%;
+}
+footer li {
+  display: inline;
+}
+footer li a i {
+  color: rgb(49, 116, 209);
+  padding: 30px 10px;
+  font-size: 30px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */

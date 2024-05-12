@@ -1,0 +1,175 @@
+@media screen and (max-width:1600px) {
+  .content1 .centar .tekst {
+    margin-top: 95px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:1000px) {
+ .content1 .centar .projekti{
+    width: 200px;
+  }
+  .content1 .centar #drzac-slike {
+    width: 360px;
+    height: auto;
+  }
+  .content1 .centar .tekst {
+    margin-top: 95px;
+    font-size: 16px;
+  }
+  .content2 .centar .skilovi{
+    width: 210px;
+  }
+  .content2 .centar .contact-info {
+    
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.content2 .centar .contact-info h3 {
+  font-size: 20px;
+  text-align: center;
+}
+  .content2 .centar .contact-info p{
+    font-size: 16px;
+  }
+ 
+}
+@media screen and (max-width:900px) {
+  .content1 .centar{
+    flex-direction: column;
+  }
+  .content1 .centar .projekti{
+    width: 160px;
+  }
+  .content1 .centar #drzac-slike {
+    margin: 0px auto;
+    padding-top: 30px;
+  }
+  .content1 .naslov.naslov1 h3{
+    padding: 10px 0px;
+  }
+  .content1 .centar .tekst {
+    margin-top: 95px;
+    font-size: 16px;
+  }
+  .content2 .centar .skilovi{
+    width: 200px;
+    margin: 15px auto;
+  }
+  .content1 .centar.centar2 .projekti{
+    margin: 15px auto;
+  }
+  .content1 .centar .projekti{
+    width: 200px;
+  }
+  .content1 .centar #drzac-slike {
+    width: 360px;
+    height: auto;
+  }
+  .content1 .centar .tekst {
+    margin-top: 95px;
+    font-size: 16px;
+  }
+  .content2 .centar{
+    flex-direction: column;
+  }
+  .content2 .centar .skilovi{
+    width: 210px;
+  }
+  .content2 .centar .contact-info {
+    margin: 0px auto;
+    width: 58%;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+}
+.content2 .centar .contact-info h3 {
+  
+  font-size: 20px;
+  text-align: left;
+}
+  .content2 .centar .contact-info p{
+    font-size: 16px;
+  }
+  .content2 .centar .skilovi p{
+    padding: 5px;
+  }
+  .content2 .naslov12 h3{
+    padding: 10px 0px;
+  }
+  .content2 .centar .forma{
+    width: 300px;
+    margin: 0px auto;
+  }
+   
+}
+@media screen and (max-width:390px) {
+  .content1 .centar{
+  display: block; 
+   }
+  .centar-blok-drzac h1{
+         
+    font-size: 30px;
+    text-align: center;
+          
+    }
+    .centar-blok-drzac p{
+          color: white;
+          font-family: 'Signika';
+          text-align:center;
+          padding: 15px 10px;
+        }
+  .content1 .centar #drzac-slike{
+          display: block;
+          margin: 0px auto;
+          width: 250px;
+        }
+  .content1 .centar .tekst{
+          text-align: center;
+          margin-top: 60px;
+          font-size: 13px;
+        }
+  
+        
+        
+      .content1 .naslov.naslov1 h3 {
+        padding: 0px 0px;
+    }
+    .content2 .centar .skilovi i {
+      
+      font-size: 58px;
+      padding: 9px 0px;
+    
+  }
+  .content1 .tekst {
+    font-size: 16px;
+  }
+  .content1 .centar.centar2 .projekti {
+    margin: 25px auto;
+  }
+  .content1 .centar .projekti {
+    width: 181px;
+  }
+  .content2 .centar .contact-info {
+    padding-left: 0px;
+  }
+  .content2 .centar .contact-info p {
+    font-size: 14px;
+  }
+  }
+@media screen and (max-width:871px) {
+  #navigacija-drzac {
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
+
+
+@media screen and (max-width:630px) {
+  #navigacija-drzac ul li {
+      display: block;
+      padding:10px 0px;
+      text-align: center;
+  }
+}
+
